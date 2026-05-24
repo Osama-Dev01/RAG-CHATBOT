@@ -1,4 +1,4 @@
-# 📚 Hybrid RAG Document Chatbot
+# 📚 RAG Document Chatbot
 
 An enterprise-grade Retrieval-Augmented Generation (RAG) chatbot engine featuring high-fidelity document ingestion via **Docling**, optimized vector space persistence with **ChromaDB**, **Google Gemini** semantic embeddings, and ultra-fast generation logic powered by **Groq (Llama 3.1)**. Conversational states are managed dynamically per user session using LangChain's native memory structures.
 

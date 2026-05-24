@@ -1,10 +1,10 @@
-# 📚 RAG Document Chatbot
+#  RAG Document Chatbot
 
 An RAG chatbot engine featuring  document ingestion via **Docling**, optimized vector space persistence with **ChromaDB**, **Google Gemini** semantic embeddings, and ultra-fast generation logic powered by **Groq (Llama 3.1)**. Conversational states are managed dynamically per user session using LangChain's native memory structures.
 
 ---
 
-## 🛠️ Architecture & Data Pipeline Blueprint
+##  Architecture & Data Pipeline Blueprint
 
 The pipeline executes sequentially across four dedicated stages to convert raw documents into context-aware conversational insights:
 
@@ -42,7 +42,7 @@ The pipeline executes sequentially across four dedicated stages to convert raw d
 
 ---
 
-## 🚀 Getting Started & Installation
+##  Getting Started & Installation
 
 ### 1. Clone the Repository
 
@@ -83,11 +83,11 @@ GEMINI_API_KEY=your_gemini_api_key_here
 EMBEDDING_MODEL_NAME=models/text-embedding-004
 ```
 
-> ⚠️ **Security Warning:** Never commit your `.env` file containing functional cryptographic secrets to public GitHub repositories. Keep it listed safely within your `.gitignore` configuration rules.
+
 
 ---
 
-## 🏎️ Running the Application
+##  Running the Application
 
 This system uses a decoupled client-server architecture. Run both services concurrently inside separate terminal processes.
 
@@ -118,7 +118,7 @@ python app.py
 
 ---
 
-## 📬 API Route Reference
+##  API Route Reference
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|

@@ -1,0 +1,32 @@
+# Core Backend Framework
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+
+# RAG & LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langchain-text-splitters
+
+# Ecosystem Integrations (LLM & Embeddings)
+langchain-groq
+langchain-google-genai
+google-generativeai
+sentence-transformers
+transformers
+huggingface-hub
+chromadb
+
+# Document Processing & Parsing
+langchain-docling
+docling
+docling-core
+pypdfium2
+
+# Frontend Gateway App (Flask App Setup)
+flask
+requests
